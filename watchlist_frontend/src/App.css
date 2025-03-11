@@ -86,3 +86,60 @@ body{
 .complete-button:hover {
   background-color: #0056b3;
 }
+@media (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  .input-field {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+
+  .watchlist-item {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .complete-button {
+    margin-top: 5px;
+  }
+  .add-button {
+    width: 20%;
+    font-size: 15px;
+    height: 40px;
+    padding: 0;
+  }
+  .complete-button{
+    padding: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .input-field {
+    width: 50%;
+    padding: 5px;
+  }
+  .app-container{
+    width: 90%;
+  }
+  .app-title {
+    font-size: 1.5rem;
+  }
+
+  .add-button {
+    width: 30%;
+    font-size: 15px;
+    height: 30px;
+    padding: 0;
+  }
+
+  .watchlist-item {
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .complete-button{
+    padding: 0;
+  }
+}
