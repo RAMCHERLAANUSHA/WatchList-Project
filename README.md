@@ -14,9 +14,7 @@ A full-stack application to manage a watchlist of movies, TV shows, or other ite
 - **Frontend:**
   - React
   - Vite
-  - Axios (for API calls)
 
 - **Backend:**
   - Django
   - Django Rest Framework
-  - CORS headers
